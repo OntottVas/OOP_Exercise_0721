@@ -1,5 +1,5 @@
 public abstract class Product {
-    private String name;
+    private final String name;
     private int expirationDate;
     private int cost;
 
@@ -14,4 +14,26 @@ public abstract class Product {
         this.cost = cost;
         this.expirationDate = 30;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getExpirationDate() {
+        return expirationDate;
+    }
+
+    public void setExpirationDate(int expirationDate) {
+        this.expirationDate = expirationDate;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+
+
 }

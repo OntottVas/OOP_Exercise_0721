@@ -1,2 +1,3 @@
-public class Dairy {
+public class Dairy extends Product{
+
 }
